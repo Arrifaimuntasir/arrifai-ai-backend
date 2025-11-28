@@ -1,4 +1,3 @@
-# backend/main.py → 100% STABLE NOVEMBER 2025 (Llama 3.3)
 from fastapi import FastAPI
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
@@ -58,4 +57,5 @@ async def chat(req: Msg):
 
 @app.get("/")
 def home():
+
     return {"message": "ARRIFAI AI IKO LIVE KABISA! 🔥"}
